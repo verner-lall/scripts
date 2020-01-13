@@ -1,0 +1,3 @@
+HANDLE="$(hcitool con | grep 'D1:4E:12:66:A7:9B' | awk '{print $5}')"  # get the device handle
+
+sudo hcitool lecup --handle $HANDLE --latency 0 --min 6 --max 8

@@ -1,0 +1,9 @@
+#!/bin/bash
+OUTPUT="$(gsettings get org.gnome.desktop.interface gtk-theme)"
+if [ "$OUTPUT" = "'McOS-MJV-Gn3.32-v2.1'" ]; then
+	gsettings set org.gnome.desktop.interface gtk-theme 'Mc-OS-MJV-Dark-Gn3.32-V.2.1'
+	cp  /home/kits/.config/Code/User/settings_dark.json /home/kits/.config/Code/User/settings.json
+else
+	gsettings set org.gnome.desktop.interface gtk-theme 'McOS-MJV-Gn3.32-v2.1'
+	cp  /home/kits/.config/Code/User/settings_light.json /home/kits/.config/Code/User/settings.json
+fi
