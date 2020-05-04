@@ -1,0 +1,70 @@
+gnome extensions:
+  dash to panel
+  extended gestures
+    - 3 finger forward back, up toggle overview
+    - 4 finger workspace switching
+  launch new instance
+  native window placement
+  system monitor
+  screenshot tool
+  windowOverlay icons
+  sound input output chooser
+  quick close in overview
+  applications overview tooltip
+  appindicators
+    
+vscode
+  settings:
+    {
+		"editor.minimap.enabled": false,
+		"editor.tabSize": 2,
+		"editor.cursorSurroundingLines": 5,
+		"githd.blameView.enabled": false
+	}
+	theme: Dark +
+	extensions:
+	  - bracket pair colorizer 2
+	  - c/c++
+	  - Docker
+	  - DotENV
+	  - ESLint
+	  - Git History Diff
+	  - Js and Ts
+	  - Python
+	  - SQL Formatter
+	keybindings.json
+
+slack
+  theme hoth
+
+chrome
+phpstorm
+
+dash-to-panel
+  dash-settings
+
+arduino
+Estonian ID Card
+Postman
+LibreCAD
+libreoffice
+FreeCAD
+green-recorder
+VirtualBox
+cura
+GIMP
+caprine
+dbeaver
+discord
+conda
+spotify
+steam
+telegram
+xournal
+virtualbox/similar
+
+ssh keys
+openvpn and verner.ovpn from downloads
+clean and backup home folders
+git projects
+
