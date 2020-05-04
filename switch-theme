@@ -6,9 +6,13 @@ OUTPUT="$(gsettings get org.gnome.desktop.interface gtk-theme)"
 if [ "$OUTPUT" = "'McOS-CTLina-Gnome-1.3.2'" ]; then
 	gsettings set org.gnome.desktop.interface gtk-theme 'Mc-OS-CTLina-Gnome-Dark-1.3.2'
 	gsettings set org.gnome.shell.extensions.user-theme name 'Mc-OS-CTLina-Gnome-Dark-1.3.2'
+	gsettings set org.gnome.gedit.preferences.editor scheme 'builder-dark'
+	gsettings set org.gnome.desktop.background picture-uri 'file:///home/kits/Pictures/Wallpapers/black.jpg'
 	cp  /home/kits/.config/Code/User/settings_dark.json /home/kits/.config/Code/User/settings.json
 else
 	gsettings set org.gnome.desktop.interface gtk-theme 'McOS-CTLina-Gnome-1.3.2'
 	gsettings set org.gnome.shell.extensions.user-theme name 'McOS-CTLina-Gnome-1.3.2'
+	gsettings set org.gnome.gedit.preferences.editor scheme 'builder'
+	gsettings set org.gnome.desktop.background picture-uri 'file:///home/kits/Pictures/Wallpapers/white.jpg'
 	cp  /home/kits/.config/Code/User/settings_light.json /home/kits/.config/Code/User/settings.json
 fi
